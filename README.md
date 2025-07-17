@@ -24,8 +24,11 @@ NetSentinel is a lightweight Python-based real-time **Network Intrusion Alert To
 USAGE:
 -Clone or download the project folder.
 -cd NetSentinel
+-chmod +x NetSentinel.py
 -sudo python3 netsentinel.py
--Enter your network interface (e.g., eth0, wlan0): wlan0 or eth0
+-Enter your network interface (e.g., eth0, wlan0): wlan0 or eth0)
+
+=====YOU NEED TO CHANGE IP IN NetSentinel.py file=====
 
  Sample Alert Output:
  [ALERT] 2025-07-17 11:45:23 - SYN Packet Detected | Src: 192.168.29.50 -> Dst Port: 80
